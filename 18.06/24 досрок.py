@@ -1,0 +1,5 @@
+f = open("24.txt")
+s = f.readline()
+s = s.replace('XZZY', 'XZZ ZZY')
+m = max(len(l) for l in s.split())
+print(m)
